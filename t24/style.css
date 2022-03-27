@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+.logo{
+    padding-left: 50px;
+}
+.links a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.active{
+    color: #10c9c3 !important
+}
+header{
+    background: #3e3e3e;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+header h1{
+    margin-bottom: 40px;
+}
+.icons{
+    background: #10c9c3;
+    padding: 60px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.icons_box{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.icons_text h4{
+    margin:  0 5px;
+}
+.icons_text p{
+    margin:  0 5px;
+    padding: 5px 0 0;
+    font-size: 14px;
+}
+.icons_image{
+    padding-right: 10px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about_left, .about_right{
+    width: 50%;
+    min-width: 340px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.about_left{
+    background: #e1e1e1;
+}
+.about_right{
+    background: #f5f5f5f5;
+    padding: 100px 50px;
+}
+.need_project{
+    text-align: center;
+    padding: 100px 0;
+}
+.need_project h2{
+    font-size: 2.1rem;
+}
+.need_project p{
+    max-width: 620px;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.need_project button{
+    background: #10c9c3;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.need_project button:hover{
+    background: #07cfc9;
+}
+footer{
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #000;
+    padding: 100px 6vw;
+    box-sizing: border-box;
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 320px
+}
+.menu_box a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin: 15px 0;
+}
+.footer_rights h2{
+    margin-top: 3.3px;
+    font-size: 1.7rem;
+}
+
+main{
+    background: #dddddd;
+    padding: 100px 0;
+}
+.main_form{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+input[type='text'], input[type='email']{
+    height: 50px;
+    padding-left: 15px;
+    border: none;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.form_box_1{
+    display: flex;
+    justify-content: space-between;
+}
+.w-100{
+    width: 100%;
+}
+.w-40{
+    width: 40%;
+}
+button[type="submit"]{
+    background: #10c9c3;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.button[type="submit"]:hover{
+    background: #25ece6;
+}
+textarea{
+    border: none;
+}
